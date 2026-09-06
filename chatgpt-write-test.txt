@@ -1,0 +1,3 @@
+JARVIS GitHub write-access test
+Created by ChatGPT on 2026-09-06.
+If this file exists, repository write access is working.
