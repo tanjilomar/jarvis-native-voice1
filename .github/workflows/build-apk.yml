@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - jarvis-v0.2-live-backend
 
 jobs:
   build:
@@ -37,5 +38,5 @@ jobs:
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
-          name: JARVIS-Native-Voice-v0.1-debug
+          name: JARVIS-Native-Voice-v0.2-debug
           path: app/build/outputs/apk/debug/app-debug.apk
